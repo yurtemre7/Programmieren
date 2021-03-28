@@ -6,7 +6,7 @@ public class Main {
         meinStapel.push(10);
         meinStapel.push(15);
         meinStapel.push(25);
-        meinStapel.push(35); // Hallo Teo
+        meinStapel.push(35); // Hallo Teo, Hallo Emre
 
         meinStapel.printStapel();
     }
