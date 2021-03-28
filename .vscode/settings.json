@@ -4,6 +4,7 @@
         "**/.factorypath": true,
         "**/.git": false,
         "**/.project": true,
-        "**/.settings": true
+        "**/.settings": true,
+        "**/*.class": true
     }
 }
