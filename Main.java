@@ -7,6 +7,7 @@ public class Main {
         meinStapel.push(15);
         meinStapel.push(25);
         meinStapel.push(35); // mein branch
+        System.out.println("Hallo");
 
         meinStapel.printStapel();
     }
