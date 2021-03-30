@@ -1,14 +1,27 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        Stack meinStapel = new Stack(5);
-        
-        meinStapel.push(5);
-        meinStapel.push(10);
-        meinStapel.push(15);
-        meinStapel.push(25);
-        meinStapel.push(35); // mein branch
-        System.out.println("Hallo");
+        for (String string : args) {
+            int number = 0;
+            try {
+                number = Integer.parseInt(string);
+            } catch (NumberFormatException e) {
+                print(e.toString());
+            }
+            
+            print("Zahl als Int: " + number);
+        }
 
-        meinStapel.printStapel();
+        ArrayList<Integer> klassenkameraden = new ArrayList<Integer>();
+        klassenkameraden.add(10);
+        print("" + klassenkameraden.get(0));
+        print("" + klassenkameraden.contains(10));
+        print(klassenkameraden.toString());
+
+    }
+
+    public static void print(String arg) {
+        System.out.println(arg);
     }
 }
