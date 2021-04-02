@@ -12,7 +12,7 @@ void aufpumpen(int luftMenge)
 
 Die Funktion soll bei vollständig aufgeblasenen Ball „Ich bin voll!“ und im anderen Fall „Es gibt noch Platz zu füllen.“ ausgeben.
 ```java
-if("Kondition vollständig aufgeblasen")
+if(vollständig aufgeblasen)
 {
     // Ich bin voll!
 }
