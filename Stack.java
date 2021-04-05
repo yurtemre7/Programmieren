@@ -10,7 +10,7 @@ public class Stack {
     }
 
     boolean isFull() {
-        return kapazitaet == this.top_index + 1;
+        return kapazitaet - 1  == this.top_index;
     }
 
     boolean isEmpty() {
