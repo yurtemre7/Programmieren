@@ -8,9 +8,7 @@ public abstract class Mensch {
         this.name = name;
     }
 
-    void hello(){
-        System.out.println("Hallo!");
-    }
+    abstract void hello();
 
     int getAlter(){
         return this.alter;
