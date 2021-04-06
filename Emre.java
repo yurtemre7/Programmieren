@@ -1,4 +1,10 @@
 public class Emre extends Mensch {
+
+    
+    public Emre(int alter, String name){
+        super(alter, name);
+    }
+
     void programmieren() {
         System.out.println("Emre programmiert...");
         
@@ -7,6 +13,6 @@ public class Emre extends Mensch {
 
     @Override
     void hello(){
-        System.out.println("Hey du!");
+        System.out.println("Hey du! Ich heiße "+ getName() +".");
     }
 }
