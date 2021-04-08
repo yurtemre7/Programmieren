@@ -13,7 +13,7 @@ class LinkedList {
             this.next = null;
         }
 
-        void printNode(){
+        void printNode() {
             System.out.print(this.item + " ");
         }
     }
@@ -63,6 +63,7 @@ class LinkedList {
             head = node.next;
             return;
         }
+
         // Find the key to be deleted
         for (int i = 0; node != null && i < position - 1; i++)
             node = node.next;
@@ -73,7 +74,6 @@ class LinkedList {
 
         // Remove the node
         Node next = node.next.next;
-
         node.next = next;
     }
 
